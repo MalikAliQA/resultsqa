@@ -1,4 +1,4 @@
-package main;
+package main.resultsqa;
 
 public class calculator {
 	
@@ -13,6 +13,7 @@ public class calculator {
 			System.out.println("Division cannot be performed");
 		} else {
 			System.out.println(div(x, y));
+			//
 		}
 	}
 	

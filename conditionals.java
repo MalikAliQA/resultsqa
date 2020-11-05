@@ -1,4 +1,4 @@
-package main;
+package main.resultsqa;
 
 public class conditionals {
 	static int num1 = 5;
