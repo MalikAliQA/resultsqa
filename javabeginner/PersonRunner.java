@@ -9,6 +9,7 @@ public static void main(String[] args) {
 	
 	//conditionals.multisum();
 	System.out.println("Result: " + conditionals.multisum());
+	//test java
 		
 		Person bob = new Person();
 		bob.setName("Bob");
