@@ -1,10 +1,14 @@
-package main;
+package javabeginner;
 
 import java.util.ArrayList;
 
 public class PersonRunner {
 	
 public static void main(String[] args) {
+	
+	
+	//conditionals.multisum();
+	System.out.println("Result: " + conditionals.multisum());
 		
 		Person bob = new Person();
 		bob.setName("Bob");

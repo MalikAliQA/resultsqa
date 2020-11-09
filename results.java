@@ -1,4 +1,4 @@
-package main.resultsqa;
+package javabeginner;
 
 public class results {
 	static int biomarks = 100;
