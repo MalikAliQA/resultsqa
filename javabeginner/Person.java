@@ -6,20 +6,27 @@ public class Person {
 	//attributes
 		private String  name = "";
 		private int age = 0;
+		private String jobTitle = "";
+		
 		
 		//constructor
 		public Person() {
-			setName("");
-			setAge(0);	
+
 		}
 		
-		//public Person(String name, int age) {
-			//this.setName(name);
-			//this.setAge(age);			
-		//}
+		public Person(String name, int age, String jobTitle) {
+			this.setName(name);
+			this.setAge(age);	
+			this.setJobTitle(jobTitle);
+		}
 		
 		
 		//methods
+		
+		public String getAll() {
+			return String.format("Name: " + name + " Age: " + age + " Job Title: " + jobTitle);
+			
+		}
 		
 		public int getAge() {
 			return age;
@@ -35,6 +42,14 @@ public class Person {
 
 		public void setName(String name) {
 			this.name = name;
+		}
+
+		public String getJobTitle() {
+			return jobTitle;
+		}
+
+		public void setJobTitle(String jobTitle) {
+			this.jobTitle = jobTitle;
 		}
 
 	

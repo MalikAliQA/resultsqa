@@ -9,6 +9,7 @@ public class ParentAnimal {
 	
 	
 	//Constructor
+	
 	public ParentAnimal(){
 		super();
 		this.name = "";

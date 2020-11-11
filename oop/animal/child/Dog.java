@@ -12,9 +12,10 @@ public class Dog extends ParentAnimal {
 		public Dog() {
 			super();
 		}
-		
+		//overloaded constructor
 		public Dog(String name, int legs, String colour, boolean canBark) {
 			super(name, colour, legs);
+			this.canBark = canBark;
 		}
 		
 		//methods
